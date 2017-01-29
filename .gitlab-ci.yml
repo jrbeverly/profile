@@ -6,6 +6,6 @@ pages:
   - echo 'No action needed.'
   artifacts:
     paths:
-    - "*"
+    - public
   only:
   - master
