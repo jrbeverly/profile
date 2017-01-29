@@ -1,5 +1,5 @@
 # Web Card - jrbeverly
-[![build status](https://gitlab.com/jrbeverly/jrbeverly.gitlab.io/badges/master/build.svg)](https://gitlab.com/jrbeverly/jrbeverly.gitlab.io/commits/master)
+[![build status](https://gitlab.com/jrbeverly/jrbeverly.gitlab.io/badges/master/build.svg)](/commits/master)
 
 This is a clean and minimalist web card. This is a template to show off online handles (such as Bitbucket, Gitlab or Github). 
 
