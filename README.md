@@ -5,7 +5,7 @@ This is a clean and minimalist web card. This is a template to show off online h
 
 ## GitLab CI
 
-This project's static Pages are built by [GitLab CI][ci], following the steps
+This project's static Pages are built by [GitLab CI](https://about.gitlab.com/gitlab-ci/), following the steps
 defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
 
 ```
@@ -29,7 +29,7 @@ step: just rename your project to `namespace.gitlab.io`, where `namespace` is
 your `username` or `groupname`. This can be done by navigating to your
 project's **Settings**.
 
-Read more about [user/group Pages][userpages] and [project Pages][projpages].
+Read more about [user/group Pages](http://doc.gitlab.com/ee/pages/README.html#user-or-group-pages) and [project Pages](http://doc.gitlab.com/ee/pages/README.html#project-pages).
 
 ## Template
 
