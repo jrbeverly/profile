@@ -1,5 +1,5 @@
 # Web Card - jrbeverly
-[![build status](/../badges/master/build.svg)](/../commits/master)
+[![Build Status][ci-badge]][ci][![WTFPL License][license-badge]][license][![Website][site-badge]][site]
 
 This is a clean and minimalist web card. This is a template to show off online handles (such as Bitbucket, Gitlab or Github).
 
@@ -34,3 +34,10 @@ Read more about [user/group Pages](http://doc.gitlab.com/ee/pages/README.html#us
 ## Template
 
 The webpage is based on the template designed by [mRova](http://www.mrova.com) available [here](http://www.mrova.com/free-one-page-responsive-html-resume-template/).
+
+[ci-badge]: /../badges/master/build.svg
+[ci]: /../commits/master
+[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg?maxAge=2592000
+[license]: /../blob/master/LICENSE
+[site-badge]: https://img.shields.io/badge/website-view-green.svg?maxAge=2592000
+[site]: https://jrbeverly.gitlab.io/
