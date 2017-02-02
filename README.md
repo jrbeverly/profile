@@ -1,5 +1,5 @@
 # Web Card - jrbeverly
-[![Build Status][ci-badge]][ci][![WTFPL License][license-badge]][license][![Website][site-badge]][site]
+[![Build Status][ci-badge]][ci][![WTFPL License][theme-badge]][theme][![MIT License][license-badge]][license][![Website][site-badge]][site]
 
 This is a clean and minimalist web card. This is a template to show off online handles (such as Bitbucket, Gitlab or Github).
 
@@ -37,6 +37,8 @@ The webpage is based on the template designed by [mRova](http://www.mrova.com) a
 
 [ci-badge]: /../badges/master/build.svg
 [ci]: /../commits/master
+[theme-badge]: https://img.shields.io/badge/theme-WTFPL-blue.svg?maxAge=2592000
+[theme]: /../blob/master/THEME-LICENSE
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg?maxAge=2592000
 [license]: /../blob/master/LICENSE
 [site-badge]: https://img.shields.io/badge/website-view-green.svg?maxAge=2592000
