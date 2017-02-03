@@ -1,7 +1,7 @@
 <h1 align="center">
   <img alt="jrbeverly.gitlab.io" src="./icon.png" width="200px" height="200px" />
   <br/>
-  <a href="jrbeverly.gitlab.io" title="jrbeverly.gitlab.io">jrbeverly.gitlab.io</a>
+  <a href="https://jrbeverly.gitlab.io/" title="jrbeverly.gitlab.io">jrbeverly.gitlab.io</a>
 </h1>
 
 <p align="center">
