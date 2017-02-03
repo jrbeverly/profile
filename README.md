@@ -1,5 +1,20 @@
-# Web Card - jrbeverly
-[![Build Status][ci-badge]][ci][![WTFPL License][theme-badge]][theme][![MIT License][license-badge]][license][![Website][site-badge]][site]
+<div align="center">
+  <img alt="jrbeverly.gitlab.io" src="./icon.png" width="200px" height="200px" />
+  <br/>
+  <h1><a href="https://jrbeverly.gitlab.io/" title="jrbeverly.gitlab.io">jrbeverly.gitlab.io</a></h1>
+</div>
+
+<p align="center">
+  This is a clean and minimalist web card.
+</p>
+
+<div align="center">
+  <a href="/../commits/master"><img alt="Build Status" src="/../badges/master/build.svg" /></a>
+  <a href="/../blob/master/THEME-LICENSE"><img alt="Theme License" src="https://img.shields.io/badge/theme-WTFPL-blue.svg?maxAge=2592000" /></a>
+  <a href="/../blob/master/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg?maxAge=2592000" /></a>
+  <a href="https://jrbeverly.gitlab.io/"><img alt="Website" src="https://img.shields.io/badge/website-view-green.svg?maxAge=2592000" /></a>
+</div>
+<br/>
 
 This is a clean and minimalist web card. This is a template to show off online handles (such as Bitbucket, Gitlab or Github).
 
@@ -34,12 +49,3 @@ Read more about [user/group Pages](http://doc.gitlab.com/ee/pages/README.html#us
 ## Template
 
 The webpage is based on the template designed by [mRova](http://www.mrova.com) available [here](http://www.mrova.com/free-one-page-responsive-html-resume-template/).
-
-[ci-badge]: /../badges/master/build.svg
-[ci]: /../commits/master
-[theme-badge]: https://img.shields.io/badge/theme-WTFPL-blue.svg?maxAge=2592000
-[theme]: /../blob/master/THEME-LICENSE
-[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg?maxAge=2592000
-[license]: /../blob/master/LICENSE
-[site-badge]: https://img.shields.io/badge/website-view-green.svg?maxAge=2592000
-[site]: https://jrbeverly.gitlab.io/
