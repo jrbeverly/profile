@@ -1,26 +1,18 @@
-<h1 align="center">
+<div align="center">
   <img alt="jrbeverly.gitlab.io" src="./icon.png" width="200px" height="200px" />
   <br/>
-  <a href="https://jrbeverly.gitlab.io/" title="jrbeverly.gitlab.io">jrbeverly.gitlab.io</a>
-</h1>
+  <h1><a href="https://jrbeverly.gitlab.io/" title="jrbeverly.gitlab.io">jrbeverly.gitlab.io</a></h1>
+</div>
 
 <p align="center">
   This is a clean and minimalist web card.
 </p>
 
 <div align="center">
-  <a href="/../commits/master">
-    <img alt="Build Status" src="/../badges/master/build.svg" />
-  </a>
-  <a href="/../blob/master/THEME-LICENSE">
-    <img alt="Theme License" src="https://img.shields.io/badge/theme-WTFPL-blue.svg?maxAge=2592000" />
-  </a>
-  <a href="/../blob/master/LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg?maxAge=2592000" />
-  </a>
-    <a href="https://jrbeverly.gitlab.io/">
-    <img alt="Website" src="https://img.shields.io/badge/website-view-green.svg?maxAge=2592000" />
-  </a>
+  <a href="/../commits/master"><img alt="Build Status" src="/../badges/master/build.svg" /></a>
+  <a href="/../blob/master/THEME-LICENSE"><img alt="Theme License" src="https://img.shields.io/badge/theme-WTFPL-blue.svg?maxAge=2592000" /></a>
+  <a href="/../blob/master/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg?maxAge=2592000" /></a>
+  <a href="https://jrbeverly.gitlab.io/"><img alt="Website" src="https://img.shields.io/badge/website-view-green.svg?maxAge=2592000" /></a>
 </div>
 <br/>
 
