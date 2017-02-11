@@ -12,11 +12,12 @@
   <a href="/../commits/master"><img alt="Build Status" src="/../badges/master/build.svg" /></a>
   <a href="/../blob/master/THEME-LICENSE"><img alt="Theme License" src="https://img.shields.io/badge/theme-WTFPL-blue.svg?maxAge=2592000" /></a>
   <a href="/../blob/master/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg?maxAge=2592000" /></a>
-  <a href="https://jrbeverly.gitlab.io/"><img alt="Website" src="https://img.shields.io/badge/website-view-green.svg?maxAge=2592000" /></a>
 </div>
 <br/>
 
-This is a clean and minimalist web card. This is a template to show off online handles (such as Bitbucket, Gitlab or Github).
+## Summary
+
+jrbeverly.gitlab.io is a clean and minimalist digital card.  Working like a business card, the website keeps links to social media and various online personas.
 
 ## GitLab CI
 
