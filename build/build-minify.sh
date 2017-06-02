@@ -4,6 +4,7 @@ set -ex
 #
 # Build
 #
+mkdir -p public
 minify -r -o public src
 
 # Copy remaining contents

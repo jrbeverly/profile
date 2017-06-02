@@ -14,18 +14,16 @@ OUTPUT_DIR="public"
 # Build
 #
 cd $ROOT_DIR
-
 rm -rf $OUTPUT_DIR
-mkdir -p $OUTPUT_DIR
-
-# Minify contents
-docker run --rm \
-        -v $ROOT_DIR:/media \
-        -w /media \
-        jrbeverly/minify:baseimage sh build/build-minify.sh
 
 # Images
 docker run --rm \
         -v $ROOT_DIR:/media \
         -w /media \
         jrbeverly/optipng:baseimage sh build/build-image.sh
+
+# Minify contents
+docker run --rm \
+        -v $ROOT_DIR:/media \
+        -w /media \
+        jrbeverly/minify:baseimage sh build/build-minify.sh
