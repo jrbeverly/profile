@@ -12,7 +12,7 @@ stages:
 
 build-images:
   stage: build
-  image: buffcode/docker-optipng
+  image: jrbeverly/optipng:baseimage
   variables: 
     VERSION: baseimage
   script:
@@ -26,7 +26,7 @@ build-images:
 
 build-minify:
   stage: build
-  image: mikechernev/minify
+  image: jrbeverly/minify:baseimage
   script:
     - sh build/build-minify.sh
   #only:

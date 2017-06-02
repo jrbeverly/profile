@@ -20,11 +20,12 @@ mkdir -p $OUTPUT_DIR
 
 # Minify contents
 docker run --rm \
-        -v $ROOT_DIR:/code \
-        -w /code \
-        mikechernev/minify sh build/build-minify.sh
+        -v $ROOT_DIR:/media \
+        -w /media \
+        jrbeverly/minify:baseimage sh build/build-minify.sh
 
 # Images
 docker run --rm \
-        -v $ROOT_DIR:/source \
-        buffcode/docker-optipng -o7 --dir public/images/ src/images/*.png
+        -v $ROOT_DIR:/media \
+        -w /media \
+        jrbeverly/optipng:baseimage sh build/build-image.sh
