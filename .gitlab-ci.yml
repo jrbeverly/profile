@@ -1,0 +1,53 @@
+# ---------------------------------------
+# Global
+# ---------------------------------------
+
+stages:
+  - build
+  - deploy
+
+# ----------------------------------------
+# Build
+# ----------------------------------------
+
+build-images:
+  stage: build
+  image: buffcode/docker-optipng
+  variables: 
+    VERSION: baseimage
+  script:
+    - sh build/build-image.sh
+  #only:
+  #  - master
+  artifacts:
+    paths:
+      - public/
+    expire_in: 1 hour
+
+build-minify:
+  stage: build
+  image: mikechernev/minify
+  script:
+    - sh build/build-minify.sh
+  #only:
+  #  - master
+  artifacts:
+    paths:
+      - public/
+    expire_in: 1 hour
+
+# ----------------------------------------
+# Deploy
+# ----------------------------------------
+
+deploy:
+  stage: deploy
+  image: alpine:latest
+  script:
+    - echo 'No action needed.'
+  #only:
+  #  - master
+  artifacts:
+    paths:
+      - public
+  expire_in: 4 weeks
