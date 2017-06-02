@@ -17,8 +17,8 @@ build-images:
     VERSION: baseimage
   script:
     - sh build/build-image.sh
-  #only:
-  #  - master
+  only: 
+    - master
   artifacts:
     paths:
       - public/
@@ -29,8 +29,8 @@ build-minify:
   image: jrbeverly/minify:baseimage
   script:
     - sh build/build-minify.sh
-  #only:
-  #  - master
+  only: 
+    - master
   artifacts:
     paths:
       - public/
@@ -45,8 +45,9 @@ deploy:
   image: alpine:latest
   script:
     - echo 'No action needed.'
-  #only:
-  #  - master
+  only: 
+    - tags
+    - /^version-.*$/
   artifacts:
     paths:
       - public
