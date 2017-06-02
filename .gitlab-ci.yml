@@ -5,6 +5,7 @@
 stages:
   - build
   - package
+  - deploy
 
 # ----------------------------------------
 # Build
@@ -51,3 +52,15 @@ package:
     paths:
       - public
     expire_in: 4 weeks
+
+# ----------------------------------------
+# Deploy
+# ----------------------------------------
+
+deploy:
+  stage: deploy
+  image: appropriate/curl:latest
+  script:
+    - "curl -X POST -F token=$TOKEN -F ref=master https://gitlab.com/api/v4/projects/2209405/trigger/pipeline"
+  only: 
+    - master
