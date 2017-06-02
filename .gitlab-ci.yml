@@ -4,7 +4,7 @@
 
 stages:
   - build
-  - deploy
+  - package
 
 # ----------------------------------------
 # Build
@@ -37,17 +37,16 @@ build-minify:
     expire_in: 1 hour
 
 # ----------------------------------------
-# Deploy
+# Package
 # ----------------------------------------
 
-deploy:
-  stage: deploy
+package:
+  stage: package
   image: alpine:latest
   script:
     - echo 'No action needed.'
   only: 
-    - tags
-    - /^version-.*$/
+    - master
   artifacts:
     paths:
       - public
