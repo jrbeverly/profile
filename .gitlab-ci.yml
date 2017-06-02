@@ -50,4 +50,4 @@ deploy:
   artifacts:
     paths:
       - public
-  expire_in: 4 weeks
+    expire_in: 4 weeks
