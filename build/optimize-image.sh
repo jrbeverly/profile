@@ -9,12 +9,11 @@ DIR="$(dirname $SCRIPT)"
 ROOT_DIR="$(dirname $DIR)"
 
 #
-# Build
+# Run
 #
-cd $ROOT_DIR
-rm -rf $OUTPUT_DIR
-
-docker run --rm \
+echo "Entering optipng container."
+echo "Navigate to images to optimize using 'optipng'."
+docker run -it --rm \
         -v $ROOT_DIR:/media \
         -w /media \
-        jrbeverly/minify:baseimage sh build/build.sh
+        jrbeverly/optipng:baseimage sh
