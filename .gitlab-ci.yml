@@ -11,25 +11,11 @@ stages:
 # Build
 # ----------------------------------------
 
-build-images:
-  stage: build
-  image: jrbeverly/optipng:baseimage
-  variables: 
-    VERSION: baseimage
-  script:
-    - sh build/build-image.sh
-  only: 
-    - master
-  artifacts:
-    paths:
-      - public/
-    expire_in: 1 hour
-
-build-minify:
+build:
   stage: build
   image: jrbeverly/minify:baseimage
   script:
-    - sh build/build-minify.sh
+    - sh build/build.sh
   only: 
     - master
   artifacts:
