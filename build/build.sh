@@ -4,7 +4,9 @@ set -ex
 #
 # Build
 #
-mkdir -p public
+rm -rf public/
+mkdir -p public/ public/images/ public/fonts/
+
 minify -r -o public src
-cp src/favicon.ico public/favicon.ico
+cp src/images/* public/images/
 cp -n src/fonts/* public/fonts/
