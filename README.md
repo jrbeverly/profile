@@ -1,4 +1,4 @@
-# jrbeverly.about
+# jrbeverly.profile
 [![License][license-badge]][license-link]
 [![Theme License][theme-badge]][theme-link]
 [![Build][build-badge]][build-link]
