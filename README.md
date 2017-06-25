@@ -31,5 +31,5 @@ The webpage is based on the template designed by [mRova](http://www.mrova.com) a
 [theme-badge]: https://img.shields.io/badge/license-MIT-blue.svg?maxAge=2592000
 [theme-link]: THEME-LICENSE
 
-[build-badge]: https://gitlab.com/jrbeverly/jrbeverly.vcard/badges/master/build.svg
-[build-link]: https://gitlab.com/jrbeverly/jrbeverly.vcard/commits/master
+[build-badge]: https://gitlab.com/jrbeverly/jrbeverly.profile/badges/master/build.svg
+[build-link]: https://gitlab.com/jrbeverly/jrbeverly.profile/commits/master
