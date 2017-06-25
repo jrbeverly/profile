@@ -14,6 +14,6 @@ minify -r -o public/css/ src/css/
 minify -r -o public/js/ src/js/
 
 # Content
-cp src/* public/
+find src/ -maxdepth 1 -type f | xargs cp -t public/
 cp src/images/* public/images/
 cp -n src/fonts/* public/fonts/
