@@ -7,6 +7,13 @@ set -ex
 rm -rf public/
 mkdir -p public/ public/images/ public/fonts/
 
-minify -r -o public src
+# CSS
+minify -r -o public/css/ src/css/
+
+# JS
+minify -r -o public/js/ src/js/
+
+# Content
+cp src/* public/
 cp src/images/* public/images/
 cp -n src/fonts/* public/fonts/
