@@ -6,7 +6,7 @@ set -e
 #
 SCRIPT=$(readlink -f "$0")
 DIR="$(dirname $SCRIPT)"
-ROOT_DIR="$(dirname $DIR)"
+DIR_ROOT="$(dirname $DIR)"
 
 #
 # Run
@@ -14,6 +14,6 @@ ROOT_DIR="$(dirname $DIR)"
 echo "Entering optipng container."
 echo "Navigate to images to optimize using 'optipng'."
 docker run -it --rm \
-        -v $ROOT_DIR:/media \
+        -v $DIR_ROOT:/media \
         -w /media \
         jrbeverly/optipng:baseimage sh

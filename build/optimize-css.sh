@@ -6,7 +6,7 @@ set -e
 #
 SCRIPT=$(readlink -f "$0")
 DIR="$(dirname $SCRIPT)"
-ROOT_DIR="$(dirname $DIR)"
+DIR_ROOT="$(dirname $DIR)"
 
 #
 # Run
@@ -14,6 +14,6 @@ ROOT_DIR="$(dirname $DIR)"
 echo "Entering node container."
 echo "Use 'npm install -g uncss' to start."
 docker run -it --rm \
-        -v $ROOT_DIR:/media \
+        -v $DIR_ROOT:/media \
         -w /media \
         node:0.12.14-wheezy sh

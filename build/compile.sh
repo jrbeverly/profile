@@ -6,15 +6,15 @@ set -e
 #
 SCRIPT=$(readlink -f "$0")
 DIR="$(dirname $SCRIPT)"
-ROOT_DIR="$(dirname $DIR)"
+DIR_ROOT="$(dirname $DIR)"
 
 #
 # Build
 #
-cd $ROOT_DIR
+cd $DIR_ROOT
 rm -rf $OUTPUT_DIR
 
 docker run --rm \
-        -v $ROOT_DIR:/media \
+        -v $DIR_ROOT:/media \
         -w /media \
         jrbeverly/minify:baseimage sh build/build.sh

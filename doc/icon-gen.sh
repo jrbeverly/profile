@@ -1,4 +1,6 @@
 #!/bin/sh
 
-mkdir -p images/
-docker run --rm -v $(pwd):/media/ jrbeverly/rsvg:baseimage rsvg-iconset -f icon.svg -o images/icon/
+DIR="$(dirname $(readlink -f "$0"))"
+
+mkdir -p $DIR/images/
+docker run --rm -v $DIR:/media/ jrbeverly/rsvg:baseimage rsvg-iconset -f icon.svg -o images/icon/
