@@ -18,6 +18,7 @@ build:
     - sh build/build.sh
   only: 
     - master
+    - develop
   artifacts:
     paths:
       - public/
