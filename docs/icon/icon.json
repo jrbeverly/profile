@@ -1,12 +1,22 @@
 {
-    "name": "<name>",
+    "name": "Network",
     "license": "Public Domain",
-    "url": "<url>",
+    "url": "https://thenounproject.com/term/network/49138/",
     "author": {
-        "name": "<author>",
-        "url": "<author url>"
+        "name": "Daniel Gamage",
+        "url": "https://thenounproject.com/danielgamage/"
     },
     "tags": [
-        "<tags>"
+        "Network",
+        "Nodes",
+        "Networking",
+        "Networked",
+        "Internet",
+        "Global",
+        "Connections",
+        "Connected",
+        "Connect",
+        "Computer Network",
+        "Web"
     ]
 }
