@@ -1,7 +1,4 @@
 # jrbeverly.profile
-[![License][license-badge]][license-link]
-[![Theme License][theme-badge]][theme-link]
-[![Build][build-badge]][build-link]
 
 ## Summary
 
@@ -25,11 +22,8 @@ Read more about [user/group Pages](http://doc.gitlab.com/ee/pages/README.html#us
 
 The webpage is based on the template designed by [mRova](http://www.mrova.com) available [here](http://www.mrova.com/free-one-page-responsive-html-resume-template/).
 
-[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg?maxAge=2592000
-[license-link]: LICENSE
+## Acknowledgements
 
-[theme-badge]: https://img.shields.io/badge/theme-WTFPL-blue.svg?maxAge=2592000
-[theme-link]: THEME-LICENSE
+The project icon is retrieved from [the Noun Project](docs/icon/icon.json). The original source material has been altered for the purposes of the project. The icon is used under the terms of the [Public Domain](https://creativecommons.org/publicdomain/zero/1.0/).
 
-[build-badge]: https://gitlab.com/jrbeverly/jrbeverly.profile/badges/master/build.svg
-[build-link]: https://gitlab.com/jrbeverly/jrbeverly.profile/commits/master
+The project icon is by [Five by Five from the Noun Project](https://thenounproject.com/term/startup/38246/).
