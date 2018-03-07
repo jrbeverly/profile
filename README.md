@@ -1,7 +1,4 @@
 # jrbeverly.profile
-[![License][license-badge]][license-link]
-[![Theme License][theme-badge]][theme-link]
-[![Build][build-badge]][build-link]
 
 ## Summary
 
@@ -9,7 +6,7 @@ This is a one page user profile for Jonathan Beverly (jrbeverly - i.e. me), link
 
 ## Build Process
 
-This project's static pages are built by GitLab CI, following the steps defined in `.gitlab-ci.yml`. The process of minimizing the web resources is handled using the command line utility of [`Minify`](https://github.com/tdewolff/minify) which is available [here](https://github.com/tdewolff/minify/tree/master/cmd/minify).
+The process of minimizing the web resources is handled using the command line utility of [`Minify`](https://github.com/tdewolff/minify) which is available [here](https://github.com/tdewolff/minify/tree/master/cmd/minify). The process is used manually as opposed to leveraging a specific build system, is to experiment with more granular controls for website compilation.
 
 ### Why not minify with ___?
 
@@ -17,7 +14,7 @@ The static pages are minified using [`Minify CLI`](https://github.com/tdewolff/m
 
 ## Deployment
 
-This project's static pages can be deployed to Gitlab Pages by GitLab CI. The static pages can be downloaded from the pipeline artifacts, which can then be run on any web server. For example, using it with Gitlab Pages can be done by creating the project `jrbeverly.gitlab.io`. The `.gitlab-ci.yml` of the `jrbeverly.gitlab.io` project can download the artifacts, and deploy the artifacts to gitlab.io.
+The static pages can be downloaded from the pipeline artifacts, which can then be run on any web server. For example, using it with Gitlab Pages can be done by creating the project `jrbeverly.gitlab.io`. The `.gitlab-ci.yml` of the `jrbeverly.gitlab.io` project can download the artifacts, and deploy the artifacts to gitlab.io.
 
 Read more about [user/group Pages](http://doc.gitlab.com/ee/pages/README.html#user-or-group-pages) and [project Pages](http://doc.gitlab.com/ee/pages/README.html#project-pages).
 
@@ -25,11 +22,8 @@ Read more about [user/group Pages](http://doc.gitlab.com/ee/pages/README.html#us
 
 The webpage is based on the template designed by [mRova](http://www.mrova.com) available [here](http://www.mrova.com/free-one-page-responsive-html-resume-template/).
 
-[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg?maxAge=2592000
-[license-link]: LICENSE
+## Acknowledgements
 
-[theme-badge]: https://img.shields.io/badge/theme-WTFPL-blue.svg?maxAge=2592000
-[theme-link]: THEME-LICENSE
+The project icon is retrieved from [the Noun Project](docs/icon/icon.json). The original source material has been altered for the purposes of the project. The icon is used under the terms of the [Public Domain](https://creativecommons.org/publicdomain/zero/1.0/).
 
-[build-badge]: https://gitlab.com/jrbeverly/jrbeverly.profile/badges/master/build.svg
-[build-link]: https://gitlab.com/jrbeverly/jrbeverly.profile/commits/master
+The project icon is by [Daniel Gamage from the Noun Project](https://thenounproject.com/term/network/49138/).
