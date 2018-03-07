@@ -387,7 +387,6 @@ body {
     margin: 0;
     min-height: 100%;
     -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     color: #666
 }
@@ -668,9 +667,8 @@ body {
 /* Backgrounds */
 
 .bg-1 {
-    background-image: url('../images/background.png');
+    background-image: url('../images/background.jpg');
 }
-
 
 /* Header */
 
