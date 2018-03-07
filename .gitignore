@@ -1,8 +1,9 @@
-*.db
+npm-debug.log
+/tmp/
+.vscode
 *.log
 
-public/
-doc/images/
-
-# Documentation:
-docs/**/images/
+# documentation
+/images/
+*.png
+*.jpg
