@@ -1,5 +1,6 @@
 npm-debug.log
 /tmp/
+/public/
 .vscode
 *.log
 
