@@ -8,10 +8,10 @@ rm -rf public/
 mkdir -p public/ public/images/
 
 # CSS
-minify -r -o public/css/ src/css/
+cp -r src/css/ public/css/ 
 
 # JS
-minify -r -o public/js/ src/js/
+cp -r src/js/ public/js/ 
 
 # Content
 find src/ -maxdepth 1 -type f | xargs cp -t public/
