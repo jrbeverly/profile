@@ -10,7 +10,7 @@ The process of minimizing the web resources is handled using the command line ut
 
 ### Why not minify with ___?
 
-The static pages are minified using [`Minify CLI`](https://github.com/tdewolff/minify/tree/master/cmd/minify) for the simple reason of tinkering. I wanted to be able to fiddle with various ways of optimizing an static HTML project, and a one page user profile project seemed to be the perfect fit.
+The static pages are minified using [`Minify CLI`](https://github.com/tdewolff/minify/tree/master/cmd/minify) for the simple reason of tinkering. I wanted to be able to fiddle with various ways of optimizing a static HTML project, and a one page user profile project seemed to be the perfect fit.
 
 ## Deployment
 
