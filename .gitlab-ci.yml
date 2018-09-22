@@ -13,7 +13,7 @@ stages:
 
 build:
   stage: build
-  image: jrbeverly/alpine:latest
+  image: alpine:latest
   script:
     - sh build/build.sh
   only: 
