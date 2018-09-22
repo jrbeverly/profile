@@ -13,9 +13,9 @@ stages:
 
 build:
   stage: build
-  image: alpine:latest
+  image: ubuntu:latest
   script:
-    - sh build/build.sh
+    - bash build/build.sh
   only: 
     - master
   artifacts:
