@@ -1,0 +1,23 @@
+{
+  "slug": "profile",
+  "namespace": "jrbeverly",
+  "status": "archived",
+  "icon": "icon.svg",
+  "license": {
+    "type": "MIT",
+    "content": "Jonathan Beverly <jrbeverly>"
+  },
+  "topics": [
+    "personal-website",
+    "personal",
+    "html",
+    "static-site",
+    "profile",
+    "about-me"
+  ],
+  "languages": [
+    "CSS",
+    "HTML",
+    "Shell"
+  ]
+}
