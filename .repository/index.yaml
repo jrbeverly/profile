@@ -1,0 +1,19 @@
+slug: profile
+description: This is a one page user profile for Jonathan Beverly (jrbeverly - i.e. me).
+project: jrbeverly
+namespace: archive
+status: archived
+icon: icon.svg
+license:
+  type: MIT
+  content: Jonathan Beverly <jrbeverly>
+  year: 2017
+topics: |-
+  [
+    "personal-website",
+    "personal",
+    "html",
+    "static-site",
+    "profile",
+    "about-me"
+  ]
